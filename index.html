@@ -6,7 +6,7 @@
         <title>Dhow Health</title>
         <meta
             name="description"
-            content="We help primary care clinics deliver better healthcare to their communities across Kenya."
+            content="Dhow Health builds in-clinic pharmacy infrastructure for Kenya's private primary care clinics — through the AfyaNzima brand. Medicines always in stock. Licensed pharmacists on-site. Clinical software built for the Kenyan context."
         />
         <link
             rel="icon"
@@ -14,18 +14,24 @@
             type="image/svg+xml"
         />
         <link rel="stylesheet" href="css/styles.css" />
-        <link rel="preload" href="images/main_picture.png" as="image" />
+        <link rel="preload" href="images/main_picture.webp" as="image" />
     </head>
     <body>
         <div class="page">
+
+            <!-- ═══════════════════════════════════════════
+                 HEADER
+            ═══════════════════════════════════════════ -->
             <header class="site-header">
                 <div class="site-header__inner">
                     <a class="brand" href="#top" aria-label="Dhow Health home">
                         <img class="brand__logo" src="images/logo.svg" alt="Dhow Health" />
                     </a>
                     <nav class="site-nav" aria-label="Primary">
+                        <a href="#about" class="nav-link">About Us</a>
                         <a href="#problem" class="nav-link">The Problem</a>
                         <a href="#solution" class="nav-link">Our Solution</a>
+                        <a href="#careers" class="nav-link">Careers</a>
                         <a
                             href="https://www.afyanzima.com"
                             class="btn btn--afya btn--afya--sm"
@@ -40,13 +46,17 @@
             </header>
 
             <main id="top">
+
+                <!-- ═══════════════════════════════════════════
+                     HERO
+                ═══════════════════════════════════════════ -->
                 <section class="hero-section hero-grad" aria-labelledby="hero-heading">
                     <div class="hero-grid">
-                        <div>
+                        <div class="hero-content">
                             <h1 id="hero-heading" class="hero-title">
-                                We help primary care clinics
-                                <span class="accent">deliver better healthcare</span>
-                                to their communities across Kenya.
+                                Building the infrastructure
+                                <span class="accent">Kenya's clinics</span>
+                                need.
                             </h1>
                             <p class="hero-lede">
                                 Dhow Health, through the
@@ -55,12 +65,8 @@
                                     href="https://www.afyanzima.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                >
-                                    AfyaNzima
-                                </a>
-                                brand, embeds inside Kenya&rsquo;s private primary care clinics &mdash;handling procurement,
-                                inventory, staffing, and software &mdash; so that the clinicians who run them can focus entirely on
-                                their patients.
+                                >AfyaNzima</a>
+                                brand, partners with private primary care clinics, embedding licensed pharmacists, reliable medicine supply, and clinical software directly into their operations, so that the clinicians who run them can focus entirely on their patients.
                             </p>
                             <div class="hero-actions">
                                 <a
@@ -69,16 +75,17 @@
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    AfyaNzima
+                                    Visit AfyaNzima
+                                    <img class="btn__icon" src="images/right-up.png" alt="" aria-hidden="true" />
                                 </a>
-                                <a href="#problem" class="btn btn--secondary">Learn more</a>
+                                <a href="#about" class="btn btn--secondary">Learn about us</a>
                             </div>
                         </div>
                         <div class="hero-media">
                             <div class="hero-media__glow" aria-hidden="true"></div>
                             <div class="hero-media__frame">
                                 <img
-                                    src="images/main_picture.png"
+                                    src="images/main_picture.webp"
                                     alt="Healthcare professionals supporting patients at a primary care clinic in Kenya"
                                     width="800"
                                     height="600"
@@ -88,15 +95,120 @@
                     </div>
                 </section>
 
+                <!-- ═══════════════════════════════════════════
+                     AUDIENCE PATHS
+                ═══════════════════════════════════════════ -->
+                <section class="audience-section" aria-labelledby="audience-heading">
+                    <div class="section--narrow">
+                        <p id="audience-heading" class="audience-label">Who we work with</p>
+                        <div class="audience-grid">
+
+                            <a href="https://www.afyanzima.com" class="audience-card audience-card--clinic" target="_blank" rel="noopener noreferrer">
+                                <div class="audience-card__icon" aria-hidden="true">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                        <polyline points="9 22 9 12 15 12 15 22"/>
+                                    </svg>
+                                </div>
+                                <div class="audience-card__body">
+                                    <h3 class="audience-card__title">Clinic owners</h3>
+                                    <p class="audience-card__desc">Want to offer your patients a fully stocked, pharmacist-staffed in-clinic pharmacy? Partner with us through AfyaNzima.</p>
+                                </div>
+                                <span class="audience-card__cta">Partner with us →</span>
+                            </a>
+
+                            <a href="https://www.afyanzima.com" class="audience-card audience-card--patient" target="_blank" rel="noopener noreferrer">
+                                <div class="audience-card__icon" aria-hidden="true">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                    </svg>
+                                </div>
+                                <div class="audience-card__body">
+                                    <h3 class="audience-card__title">Patients</h3>
+                                    <p class="audience-card__desc">Looking for a clinic near you where medicines are always in stock and a licensed pharmacist is on-site? Find an AfyaNzima clinic.</p>
+                                </div>
+                                <span class="audience-card__cta">Find a clinic →</span>
+                            </a>
+
+                            <a href="#careers" class="audience-card audience-card--careers">
+                                <div class="audience-card__icon" aria-hidden="true">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="7" width="20" height="14" rx="2"/>
+                                        <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/>
+                                        <line x1="12" y1="12" x2="12" y2="16"/>
+                                        <line x1="10" y1="14" x2="14" y2="14"/>
+                                    </svg>
+                                </div>
+                                <div class="audience-card__body">
+                                    <h3 class="audience-card__title">Job seekers</h3>
+                                    <p class="audience-card__desc">We're building a team of pharmacists, technologists, and operations professionals who want to transform healthcare in Kenya.</p>
+                                </div>
+                                <span class="audience-card__cta">View opportunities →</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ═══════════════════════════════════════════
+                     ABOUT DHOW HEALTH
+                ═══════════════════════════════════════════ -->
+                <section id="about" class="section section--tinted" aria-labelledby="about-heading">
+                    <div class="section--narrow">
+                        <div class="divider"></div>
+                        <div class="about-grid">
+                            <div class="about-text">
+                                <h2 id="about-heading" class="section-heading">
+                                    We are Dhow Health.
+                                </h2>
+                                <p class="section__intro">
+                                    Dhow Health is a Nairobi-based healthcare company building the operating
+                                    infrastructure that Kenya's private primary care clinics have always needed
+                                    but never had access to.
+                                </p>
+                                <p class="about-body">
+                                    We do this through our consumer brand,
+                                    <a href="https://www.afyanzima.com" class="inline-brand" target="_blank" rel="noopener noreferrer">AfyaNzima</a>
+                                    — a network of in-clinic pharmacies embedded inside existing private clinics across Kenya.
+                                    AfyaNzima is the name patients and clinic owners know us by. Dhow Health is the
+                                    company that makes it work: the team, the technology, the supply chain, and the
+                                    operational model behind it.
+                                </p>
+                                <p class="about-body">
+                                    We are a small, mission-driven team. We believe the best way to improve healthcare
+                                    access in Kenya is to work within the existing clinic network — not to replace it.
+                                </p>
+                            </div>
+                            <div class="about-stats">
+                                <div class="stat-card">
+                                    <span class="stat-card__number">2025</span>
+                                    <span class="stat-card__label">Founded in Nairobi</span>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-card__number">Private<br>clinics</span>
+                                    <span class="stat-card__label">Our primary partners</span>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-card__number">In-clinic</span>
+                                    <span class="stat-card__label">How we operate — embedded, not external</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ═══════════════════════════════════════════
+                     THE PROBLEM
+                ═══════════════════════════════════════════ -->
                 <section id="problem" class="section section--narrow" aria-labelledby="problem-heading">
                     <div class="divider"></div>
                     <h2 id="problem-heading" class="section-heading">
-                        Patients struggle to access the care and medicines they need.
+                        Getting the right care shouldn't be this hard.
                     </h2>
                     <p class="section__intro">
-                        Kenya&rsquo;s private primary care clinics are the most accessible healthcare option for millions of people.
-                        But most operate without systems, without working capital, and without data. The result is stock-outs,
-                        inconsistent care, and patients who fall through the cracks.
+                        Millions of Kenyans rely on private primary care clinics — they are close, trusted, and
+                        affordable. But most of these clinics operate without the systems, supply chains, or
+                        pharmacy support they need to deliver consistent, complete care.
                     </p>
                     <div>
                         <article class="problem-item">
@@ -104,43 +216,50 @@
                             <div>
                                 <h3>Medicines run out</h3>
                                 <p>
-                                    Clinics buy reactively and run out of stock daily. Patients leave empty-handed or turn to informal
-                                    sellers stocking low-quality alternatives.
+                                    Clinics buy reactively and stock out daily. Patients leave with a prescription
+                                    but no medicine — and often turn to informal sellers with no guarantee of quality or dosage. A prescription that can't be filled is not care.
                                 </p>
                             </div>
                         </article>
                         <article class="problem-item">
                             <div class="problem-item__number" aria-hidden="true">02</div>
                             <div>
-                                <h3>Clinic owners are clinicians, not operators</h3>
+                                <h3>Clinic owners carry too much</h3>
                                 <p>
-                                    They are trained to care for patients, not to manage supply chains, forecast inventory, or run a
-                                    pharmacy. That gap costs them revenue and costs their patients access to medicines.
+                                    Doctors and nurses running their own clinics are exceptional clinicians —
+                                    but they were not trained to manage supply chains, forecast inventory, or
+                                    hire and supervise pharmacy staff. That gap costs them time, revenue,
+                                    and ultimately costs their patients.
                                 </p>
                             </div>
                         </article>
                         <article class="problem-item">
                             <div class="problem-item__number" aria-hidden="true">03</div>
                             <div>
-                                <h3>Nothing gets recorded</h3>
+                                <h3>Patient records don't exist</h3>
                                 <p>
-                                    Without software, there is no data. No way to track patients between visits, anticipate who needs
-                                    help, or see patterns across a community. Care remains entirely reactive.
+                                    Without software, every visit starts from zero. Conditions go untracked,
+                                    follow-ups are missed, and the patterns that could identify who needs
+                                    proactive care remain invisible. Kenya's clinic network is flying blind.
                                 </p>
                             </div>
                         </article>
                     </div>
                 </section>
 
+                <!-- ═══════════════════════════════════════════
+                     THE SOLUTION
+                ═══════════════════════════════════════════ -->
                 <section id="solution" class="section section--tinted" aria-labelledby="solution-heading">
                     <div class="section--narrow">
                         <div class="divider"></div>
                         <h2 id="solution-heading" class="section-heading">
-                            We operate in-clinic pharmacies so clinic owners can focus on their patients.
+                            We run the pharmacy.<br>The clinic focuses on care.
                         </h2>
                         <p class="section__intro">
-                            Dhow embeds inside existing clinics and takes on the pharmacy entirely &mdash; so that clinicians can do
-                            what they are trained to do, and patients can access the medicines they need.
+                            Through the AfyaNzima brand, we embed inside existing clinics and take on the
+                            pharmacy function entirely — so that clinic owners can do what they were trained
+                            to do, and patients always leave with what they need.
                         </p>
                         <div class="solution-grid">
                             <article class="solution-card">
@@ -151,11 +270,11 @@
                                         <line x1="11" y1="16" x2="11" y2="19" />
                                     </svg>
                                 </div>
-                                <h3>Software &amp; data</h3>
+                                <h3>Clinical software</h3>
                                 <p>
-                                    Our software records every patient visit, prescription, and medicine dispensed across our network.
-                                    We use AI to predict demand, flag at-risk patients, and help clinics stay ahead of their
-                                    patients&rsquo; needs.
+                                    Every visit, prescription, and medicine dispensed is recorded in our system.
+                                    Clinicians can view patient history at a glance, track chronic conditions,
+                                    and follow up with patients who need them — all from a single screen.
                                 </p>
                             </article>
                             <article class="solution-card">
@@ -165,8 +284,12 @@
                                         <path d="M11 3v16M2 7l9 4 9-4" />
                                     </svg>
                                 </div>
-                                <h3>Supply &amp; procurement</h3>
-                                <p>We stock essential medicines, manage reordering, and take on inventory risk. Clinics never run out of stock again.</p>
+                                <h3>Medicine supply</h3>
+                                <p>
+                                    We manage the full pharmacy supply chain for our partner clinics — stocking
+                                    essential medicines, managing reordering, and absorbing inventory risk.
+                                    When a patient walks in, the medicines they need are there.
+                                </p>
                             </article>
                             <article class="solution-card">
                                 <div class="icon-wrap" aria-hidden="true">
@@ -175,39 +298,132 @@
                                         <path d="M3 19c0-4 3.6-7 8-7s8 3 8 7" />
                                     </svg>
                                 </div>
-                                <h3>Staffing &amp; dispensing</h3>
+                                <h3>Licensed pharmacists</h3>
                                 <p>
-                                    We employ licensed pharmacists who dispense medicines directly to patients, ensuring professional,
-                                    consistent care at every interaction.
+                                    We employ and place licensed pharmacists inside each partner clinic. They
+                                    dispense medicines safely, counsel patients on their treatment, and ensure
+                                    every interaction meets professional standards — every day.
                                 </p>
                             </article>
                         </div>
                     </div>
                 </section>
 
-                <section id="contact" class="section" aria-labelledby="contact-heading">
+                <!-- ═══════════════════════════════════════════
+                     CAREERS
+                ═══════════════════════════════════════════ -->
+                <section id="careers" class="section" aria-labelledby="careers-heading">
                     <div class="section--narrow">
-                        <div class="cta-section">
-                            <p class="cta-kicker">Get in touch</p>
-                            <h2 id="contact-heading" class="section-heading section-heading--cta">Interested in learning more?</h2>
-                            <p class="cta-lede">
-                                If you are interested in joining our team or learning more about what we do &mdash; get in touch.
-                            </p>
-                            <div class="cta-actions">
-                                <a href="mailto:hello@tembelea.health" class="btn-primary">Email us</a>
-                                <a href="mailto:hello@tembelea.health" class="btn-outline">hello@tembelea.health</a>
+                        <div class="divider"></div>
+                        <div class="careers-grid">
+                            <div class="careers-text">
+                                <h2 id="careers-heading" class="section-heading">
+                                    Join our team.
+                                </h2>
+                                <p class="section__intro" style="margin-bottom: 24px;">
+                                    We are a small team doing ambitious work. We hire people who want to build
+                                    something meaningful — and who are comfortable operating in environments that
+                                    are still being figured out.
+                                </p>
+                                <p class="about-body">
+                                    We currently hire pharmacists, pharmacy technologists, operations
+                                    professionals, and software engineers. We are based in Nairobi and work
+                                    on the ground in the clinics we serve.
+                                </p>
+                                <div class="careers-actions">
+                                    <a href="mailto:recruitment@tembelea.health" class="btn btn--primary">
+                                        Apply or enquire
+                                    </a>
+                                    <span class="careers-email">recruitment@tembelea.health</span>
+                                </div>
+                            </div>
+                            <div class="careers-values">
+                                <div class="value-item">
+                                    <div class="value-item__dot" aria-hidden="true"></div>
+                                    <div>
+                                        <h4>We work in the field</h4>
+                                        <p>Our team is inside clinics, not behind a screen. We understand what we build by experiencing it firsthand.</p>
+                                    </div>
+                                </div>
+                                <div class="value-item">
+                                    <div class="value-item__dot" aria-hidden="true"></div>
+                                    <div>
+                                        <h4>We move deliberately</h4>
+                                        <p>Healthcare demands accuracy over speed. We take our time to get things right — and we hold ourselves to high professional standards.</p>
+                                    </div>
+                                </div>
+                                <div class="value-item">
+                                    <div class="value-item__dot" aria-hidden="true"></div>
+                                    <div>
+                                        <h4>We are building for the long term</h4>
+                                        <p>Improving healthcare infrastructure takes years, not months. We are in this for the long haul and we hire people who share that outlook.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
+                <!-- ═══════════════════════════════════════════
+                     DUAL CTA
+                ═══════════════════════════════════════════ -->
+                <section id="contact" class="section section--tinted" aria-labelledby="cta-heading">
+                    <div class="section--narrow">
+                        <p class="sr-only" id="cta-heading">Get in touch</p>
+                        <div class="dual-cta">
+
+                            <div class="dual-cta__card dual-cta__card--clinic">
+                                <p class="cta-kicker">For clinic owners</p>
+                                <h2 class="dual-cta__heading">Ready to partner with us?</h2>
+                                <p class="dual-cta__body">
+                                    If you own or manage a private primary care clinic in Kenya and want to
+                                    bring a fully-staffed, always-stocked pharmacy inside your walls —
+                                    AfyaNzima is for you.
+                                </p>
+                                <a
+                                    href="https://www.afyanzima.com"
+                                    class="btn btn--afya"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Visit AfyaNzima
+                                    <img class="btn__icon" src="images/right-up.png" alt="" aria-hidden="true" />
+                                </a>
+                            </div>
+
+                            <div class="dual-cta__divider" aria-hidden="true"></div>
+
+                            <div class="dual-cta__card dual-cta__card--general">
+                                <p class="cta-kicker">General enquiries</p>
+                                <h2 class="dual-cta__heading">Want to learn more?</h2>
+                                <p class="dual-cta__body">
+                                    For press, partnerships, or any questions about Dhow Health.
+                                    Reach us directly at our general inbox.
+                                </p>
+                                <br>
+                                <div class="cta-actions--inline">
+                                    <a href="mailto:hello@tembelea.health" class="btn btn--primary">Email us</a>
+                                    <a href="mailto:hello@tembelea.health" class="btn btn--secondary">hello@tembelea.health</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
             </main>
 
+            <!-- ═══════════════════════════════════════════
+                 FOOTER
+            ═══════════════════════════════════════════ -->
             <footer class="site-footer">
                 <div class="site-footer__brand">
                     <img class="site-footer__logo" src="images/logo.svg" alt="Dhow Health" />
                 </div>
-                <p class="site-footer__legal">&copy; 2026 Dhow Health. Nairobi, Kenya.</p>
+                
+                <p class="site-footer__legal">&copy; 2026 Dhow Health Ltd. Nairobi, Kenya.</p>
             </footer>
+
         </div>
     </body>
 </html>
